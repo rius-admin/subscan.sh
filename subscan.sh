@@ -5,9 +5,9 @@
 
 touch tmp.txt
 echo " "
-echo " #========================#"
-echo " #     SUBDOMAIN SCAN     #"
-echo " #========================#"
+echo " #==============================#"
+echo " #    __- SUBDOMAIN SCAN -__    #"
+echo " #==============================#"
 echo " "
 echo " "
 echo " [•] loading.."
@@ -43,9 +43,8 @@ if [[ $# -eq 2 ]]; then
 else
     cat tmp.txt | sed -e "s/\*\.$1//g" | sed -e "s/^\..*//g" | grep -o -E "[a-zA-Z0-9._-]+\.$1" | sort -u
 fi
-echo " "
+
 rm -f tmp.txt
-echo " "
 echo " "
 echo " gunakan tools ini dengan bijak!! "
 echo " "
