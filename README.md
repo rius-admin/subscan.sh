@@ -1,4 +1,4 @@
-installer
+# installer
 
 • pkg update && pkg upgrade
 
@@ -20,6 +20,6 @@ installer
 
 • ls
 
-menjalankan
+# menjalankan
 
 • bash ./subscan.sh target.com
